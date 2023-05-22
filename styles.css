@@ -27,6 +27,7 @@ body {
 
 #formContainer {
     display: flex;
+    width: 100%;
 }
 
 .dataEntryContainer {
@@ -37,11 +38,15 @@ body {
 
 form {
     display: flex;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    flex-direction: column;
+    width: 100%;
+    margin-left: 5vw;
+    margin-right: 20vw;
+    flex-direction: column  ;
 }
 
 .formLine {
     display: flex;
+    justify-content: left;
+    gap: 5rem;
+
 }

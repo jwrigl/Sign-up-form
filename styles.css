@@ -1,5 +1,10 @@
 body {
     display: flex;
+    background-color: black;
+}
+
+#mainContainer {
+    display: flex;
 }
 
 #leftContainer {
@@ -10,6 +15,9 @@ body {
 #rightContainer {
     width: 60vw;
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
 }
 
 #leftPicture {

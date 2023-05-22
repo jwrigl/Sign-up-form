@@ -1,6 +1,6 @@
 body {
     display: flex;
-    background-color: black;
+    /*background-color: black;*/
 }
 
 #mainContainer {
@@ -23,4 +23,25 @@ body {
 #leftPicture {
     height: 100%;
     width: 100%;
+}
+
+#formContainer {
+    display: flex;
+}
+
+.dataEntryContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+form {
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    flex-direction: column;
+}
+
+.formLine {
+    display: flex;
 }

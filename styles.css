@@ -41,12 +41,23 @@ form {
     width: 100%;
     margin-left: 5vw;
     margin-right: 20vw;
+    padding-top: 20vh;
     flex-direction: column  ;
 }
 
 .formLine {
     display: flex;
     justify-content: left;
-    gap: 5rem;
+    gap: 5rem ;
 
+}
+
+input:focus {
+    border-color: blue;
+    outline: none;
+}
+
+input {
+    width: 12rem;
+    height: 1.5rem;
 }

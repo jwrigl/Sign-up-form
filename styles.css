@@ -28,8 +28,8 @@ body {
 #formContainer {
     width: 100%;
     background-color: antiquewhite;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 
 }
 
@@ -72,4 +72,18 @@ input {
     padding-top: 20vh;
     padding-bottom: 10vh;
  
+}
+
+#signUpMsg {
+    margin-left: 5vw;
+    padding-top: 2rem;
+    padding-bottom:2rem
+}
+#buttonContainer {
+    margin-top: 2vh; 
+    margin-left: 5vw;
+}
+
+#submitButton {
+
 }

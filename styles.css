@@ -92,6 +92,17 @@ input {
 }
 
 #imageBody {
+    display: flex;
+    justify-content: center;
+
     position: absolute;
     top: calc(100vh/3);
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+
 }

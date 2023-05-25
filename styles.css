@@ -82,8 +82,9 @@ input {
 #buttonContainer {
     margin-top: 2vh; 
     margin-left: 5vw;
+    margin-bottom: 2vh; 
 }
 
-#submitButton {
-
+#bottomText {
+    margin-left: 5vw;
 }

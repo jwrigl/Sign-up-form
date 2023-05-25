@@ -87,7 +87,8 @@
     #signUpMsg {
         margin-left: 5vw;
         padding-top: 2rem;
-        padding-bottom:2rem
+        padding-bottom:2rem;
+        font-size: 2rem;
     }
     #buttonContainer {
         margin-top: 2vh; 
@@ -128,6 +129,6 @@
         font-family: "13Misa";
     }
     #hydrogen {
-        width: 300px;
-        height: 300px;
+        width: 7rem;
+        height: 7rem;
     }

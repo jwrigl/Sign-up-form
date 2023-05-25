@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "13Misa";
+    src: url(fonts/13Misa.TTF) format('truetype');
+}    
+    
+    
     body {
         display: flex;
         background-color: #120f22;
@@ -118,6 +124,9 @@
 
     }
 
+    #imageText {
+        font-family: "13Misa";
+    }
     #hydrogen {
         width: 300px;
         height: 300px;

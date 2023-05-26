@@ -3,7 +3,6 @@
     src: url(fonts/13Misa.TTF) format('truetype');
 }    
     
-    
     body {
         display: flex;
         background-color: #120f22;
@@ -20,6 +19,8 @@
         position: relative;
         width: 40vw;
         height: 100vh;
+        margin: 0;
+        padding: 0;
     }
 
     #rightContainer {
@@ -70,13 +71,15 @@
     }
 
     input {
-        width: 12rem;
-        height: 1.5rem;
+        color: white;
+        width: 30rem;
+        height: 3rem;
+        font-size: 1.5rem;
         background-color: transparent;
         box-shadow: none;
         border: none;
-        border-bottom: #e25482;
-        padding-bottom: 1rem;
+        border-bottom: 2px solid #e25482;
+        margin-bottom: 1rem;
     }
 
     #headerMsg {
@@ -137,4 +140,9 @@
     #hydrogen {
         width: 7rem;
         height: 7rem;
+    }
+
+    img {
+        margin: 0;
+        padding: 0;
     }

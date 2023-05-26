@@ -3,150 +3,159 @@
     src: url(fonts/13Misa.TTF) format('truetype');
 }    
     
-    body {
-        display: flex;
-        background-color: #120f22;
-        color: white;
-        /*background-color: black;*/
-    }
+body {
+    display: flex;
+    background-color: #120f22;
+    color: white;
+    /*background-color: black;*/
+}
 
-    #mainContainer {
-        display: flex;
-    }
+#mainContainer {
+    display: flex;
+}
 
-    #leftContainer {
-        display: inline-block;
-        position: relative;
-        width: 40vw;
-        height: 100vh;
-        margin: 0;
-        padding: 0;
-    }
+#leftContainer {
+    display: inline-block;
+    position: relative;
+    width: 40vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 
-    #rightContainer {
-        width: 60vw;
-        height: 100vh;
+#rightContainer {
+    width: 60vw;
+    height: 100vh;
 
-        display: flex;
-        flex-direction: column;
-    }
+    display: flex;
+    flex-direction: column;
+}
 
-    #leftPicture {
-        height: 100vh;
-        width: 100%;
-    }
+#leftPicture {
+    height: 100vh;
+    width: 100%;
+}
 
-    #formContainer {
-        width: 100%;
-        background-color: #332d5c;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
+#formContainer {
+    width: 100%;
+    background-color: #332d5c;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 
-    }
+}
 
-    .dataEntryContainer {
-        display: flex;
-        flex-direction: column;
+.dataEntryContainer {
+    display: flex;
+    flex-direction: column;
 
-    }
+}
 
-    form {
-        display: flex;
-        width: 100%;
-        margin-left: 5vw;
-        margin-right: 20vw;
-        flex-direction: column  ;
-    }
+form {
+    display: flex;
+    width: 100%;
+    margin-left: 5vw;
+    margin-right: 20vw;
+    flex-direction: column  ;
+}
 
-    .formLine {
-        display: flex;
-        justify-content: left;
-        gap: 5rem ;
+.formLine {
+    display: flex;
+    justify-content: left;
+    gap: 5rem ;
 
-    }
+}
 
-    input:focus {
-        border-color: blue;
-        outline: none;
-    }
+input:focus {
+    border-color: blue;
+    outline: none;
+}
 
-    input::placeholder {
-        color: white;
-        font-size: 1rem;
-    }
-    input {
-        color: white;
-        width: 30rem;
-        height: 3rem;
-        font-size: 1.5rem;
-        background-color: transparent;
-        box-shadow: none;
-        border: none;
-        border-bottom: 2px solid #e25482;
-        margin-bottom: 1rem;
-    }
+input::placeholder {
+    color: white;
+    font-size: 1rem;
+}
+input {
+    color: white;
+    width: 30rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid #e25482;
+    margin-bottom: 1rem;
+}
 
-    #headerMsg {
-        margin-left: 5vw;
-        width: 75%;
-        font-size: 2.5rem;
-        font-weight: bold;
-        padding-top: 20vh;
-        padding-bottom: 10vh;
-    
-    }
+#headerMsg {
+    margin-left: 5vw;
+    width: 75%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
 
-    #signUpMsg {
-        margin-left: 5vw;
-        padding-top: 2rem;
-        padding-bottom:2rem;
-        font-size: 2rem;
-    }
-    #buttonContainer {
-        margin-top: 2vh; 
-        margin-left: 5vw;
-        margin-bottom: 2vh; 
-    }
+}
 
-    #submitButton {
-        background-color:#e25482;
-        width: 10rem;
-        height: 3rem;
-        border-radius: 10px;
-    }
+#signUpMsg {
+    margin-left: 5vw;
+    padding-top: 2rem;
+    padding-bottom:2rem;
+    font-size: 2rem;
+}
+#buttonContainer {
+    margin-top: 2vh; 
+    margin-left: 5vw;
+    margin-bottom: 2vh; 
+}
 
-    #bottomText {
-        margin-left: 5vw;
-    }
+#submitButton {
+    background-color:#e25482;
+    width: 15rem;
+    height: 4rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
 
-    #imageBody {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
+#bottomText {
+    margin-left: 5vw;
+}
 
-        position: absolute;
-        top: calc(100vh/8);
+#imageBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        width: 100%;
+    position: absolute;
+    top: calc(100vh/8);
 
-        background-color: rgba(0,0,0,0.6);
-        color: white;
-        font-size: 5REM;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
 
-    }
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 5REM;
 
-    #imageText {
-        font-family: "13Misa";
-    }
-    #hydrogen {
-        width: 7rem;
-        height: 7rem;
-    }
+}
 
-    img {
-        margin: 0;
-        padding: 0;
-    }
+#imageText {
+    font-family: "13Misa";
+}
+#hydrogen {
+    width: 7rem;
+    height: 7rem;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+#bottomText {
+    font-size: 2rem;
+}
+
+a {
+    font-size: 2rem;
+}

@@ -3,9 +3,12 @@ function listeners() {
     let confirmPasswordInput = document.querySelector("#passwordConfirmation")
     let confirmPasswordMsg = document.querySelector("#confirmPasswordMsg")
 
-    ConfirmPasswordInput.addEventListener("keyup" , (e) => {
+    confirmPasswordInput.addEventListener("keyup" , () => {
         if (passwordInput.value !== confirmPasswordInput.value) {
             confirmPasswordMsg.innerText = "Passwords do not match."
+        }
+        else {
+            confirmPasswordMsg.innerText = "Passwords match."
         }
     })
 }

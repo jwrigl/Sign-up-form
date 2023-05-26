@@ -19,14 +19,14 @@ body {
     display: inline-block;
     position: relative;
     width: 40vw;
-    height: 100vh;
+    height: auto;
     margin: 0;
     padding: 0;
 }
 
 #rightContainer {
     width: 60vw;
-    height: 100vh;
+    height: auto;
 
     display: flex;
     flex-direction: column;
@@ -77,7 +77,7 @@ input::placeholder {
 }
 input {
     color: white;
-    width: 30rem;
+    width: 20rem;
     height: 3rem;
     font-size: 1.5rem;
     background-color: transparent;

@@ -1,3 +1,7 @@
+:root {
+    --left-margin: 5vw;
+}
+
 @font-face {
     font-family: "13Misa";
     src: url(fonts/13Misa.TTF) format('truetype');
@@ -54,7 +58,7 @@ body {
 form {
     display: flex;
     width: 100%;
-    margin-left: 5vw;
+    margin-left: var(--left-margin);
     margin-right: 20vw;
     margin-bottom: 2rem;
     flex-direction: column  ;
@@ -88,7 +92,7 @@ input {
 }
 
 #headerMsg {
-    margin-left: 5vw;
+    margin-left: var(--left-margin);
     width: 75%;
     font-size: 2.5rem;
     font-weight: bold;
@@ -98,14 +102,14 @@ input {
 }
 
 #signUpMsg {
-    margin-left: 5vw;
+    margin-left: var(--left-margin);
     padding-top: 2rem;
     padding-bottom:2rem;
     font-size: 2rem;
 }
 #buttonContainer {
     margin-top: 2vh; 
-    margin-left: 5vw;
+    margin-left: var(--left-margin);
     margin-bottom: 2vh; 
 }
 
@@ -118,7 +122,7 @@ input {
 }
 
 #bottomText {
-    margin-left: 5vw;
+    margin-left: var(--left-margin);
 }
 
 #imageBody {
